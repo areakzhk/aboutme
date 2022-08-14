@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Set the page's color to #333333 and font color to white unless otherwise speicified*/
+body {
+    background-color: #333333;
+    color: white;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+#header {
+    text-align: center;
+    margin: 1em;
+}
+
+.blink {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #333333;
+}
+
+.divalignalert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+tr:hover {
+    background-color: coral;
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left:2em;
+    margin-right: 2em;
+    padding: 2em;
+    color: #aaaaaa;
+}
+
+.aligncenter {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin: 2em;
+}
